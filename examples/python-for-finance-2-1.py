@@ -12,4 +12,5 @@ df = web.DataReader('TSLA', 'yahoo', start, end)
 
 print(df.tail(6))
 
+# Save to a CSV file
 df.to_csv('tsla.csv')

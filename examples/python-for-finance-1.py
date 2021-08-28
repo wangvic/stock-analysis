@@ -8,6 +8,7 @@ style.use('ggplot')
 start = dt.date(2000, 1, 1)
 end = dt.date(2021, 8, 28)
 
+# Get stock price
 df = web.DataReader('TSLA', 'yahoo', start, end)
 
 print(df.tail(6))
