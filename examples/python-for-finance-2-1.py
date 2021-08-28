@@ -5,7 +5,7 @@ from matplotlib import style
 
 style.use('ggplot')
 
-start = dt.date(2019, 1, 1)
+start = dt.date(2010, 1, 1)
 end = dt.date(2021, 8, 28)
 
 df = web.DataReader('TSLA', 'yahoo', start, end)
